@@ -3475,10 +3475,17 @@ ejs@^3.1.6:
   dependencies:
     jake "^10.6.1"
 
+<<<<<<< HEAD
 electron-to-chromium@^1.4.76:
   version "1.4.84"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.84.tgz#2700befbcb49c42c4ee162e137ff392c07658249"
   integrity sha512-b+DdcyOiZtLXHdgEG8lncYJdxbdJWJvclPNMg0eLUDcSOSO876WA/pYjdSblUTd7eJdIs4YdIxHWGazx7UPSJw==
+=======
+electron-to-chromium@^1.4.71:
+  version "1.4.74"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.74.tgz#f444036a90ffe75f6423b635e77edd4cc9e6cb2f"
+  integrity sha512-DvQ20M0I4dIH8KcAo7n7E4OEeNafZ1N8z6g6ck+ALCM0ZoV6mpjaX6ekjs31zKlqPzacU3lmjG9PZEa1mQhEpQ==
+>>>>>>> added solana tezos terra wallets to example-next
 
 emittery@^0.8.1:
   version "0.8.1"
