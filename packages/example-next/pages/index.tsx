@@ -1,4 +1,4 @@
-import CoinbaseWalletCard from '../components/connectors/CoinbaseWalletCard'
+// import CoinbaseWalletCard from '../components/connectors/CoinbaseWalletCard'
 import MetaMaskCard from '../components/connectors/MetaMaskCard'
 import NetworkCard from '../components/connectors/NetworkCard'
 import WalletConnectCard from '../components/connectors/WalletConnectCard'
