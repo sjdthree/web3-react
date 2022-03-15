@@ -13,7 +13,7 @@ export default function Home() {
       <div style={{ display: 'flex', flexFlow: 'wrap', fontFamily: 'sans-serif' }}>
         <MetaMaskCard />
         <WalletConnectCard />
-        <CoinbaseWalletCard />
+        {/* <CoinbaseWalletCard /> */}
         <NetworkCard />
         <SolanaWalletCard />
         <TezosWalletCard />
