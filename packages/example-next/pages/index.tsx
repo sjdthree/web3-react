@@ -6,6 +6,7 @@ import WalletConnectCard from '../components/connectors/WalletConnectCard'
 import SolanaWalletCard from '../components/connectors/SolanaWalletCard'
 import TezosWalletCard from '../components/connectors/TezosWalletCard'
 import TerraWalletCard from '../components/connectors/TerraWalletCard'
+import Chat from './Chat'
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
         <TerraWalletCard />
         {/* <WalletLinkCard />
         <NetworkCard /> */}
+      </div>
+      <div style={{ width: '100%', boxSizing: 'border-box', fontFamily: 'sans-serif' }}>
+        <Chat />
       </div>
     </>
   )

@@ -47,7 +47,7 @@ export default function SolanaWalletCard() {
 
     return (
     <Card>
-        <b>SolanaWallet</b>
+        <b>SolanaWallet <a href='https://chrome.google.com/webstore/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa?hl=en'>Add Phantom to browser</a> </b>
         <ConnectionProvider endpoint={endpoint}>
             <WalletProvider wallets={wallets} autoConnect>
                 <WalletModalProvider>

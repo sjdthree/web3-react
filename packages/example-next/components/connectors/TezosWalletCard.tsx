@@ -28,7 +28,7 @@ import {
   
     return (
     <Card>
-        <b>TezosWallet</b>
+        <b>TezosWallet <a  href='https://chrome.google.com/webstore/detail/temple-tezos-wallet-ex-th/ookjlbkiijinhpmnjffcofjonbfbgaoc?hl=en'>Add temple to browser</a></b>
       <div style={{ display: 'flex' }}>
         <TezosWallet
           // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
