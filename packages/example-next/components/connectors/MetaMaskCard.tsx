@@ -27,7 +27,7 @@ export default function MetaMaskCard() {
   return (
     <Card>
       <div>
-        <b>MetaMask</b>
+        <b>MetaMask <a href='https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en'>Add Metamask to browser</a></b>
         <Status isActivating={isActivating} error={error} isActive={isActive} />
         <div style={{ marginBottom: '1rem' }} />
         <Chain chainId={chainId} />
